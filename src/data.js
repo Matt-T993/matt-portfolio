@@ -7,7 +7,6 @@ import mongodbLogo from "./Images/skillsLogo/mongodb-logo.png";
 import nodejsLogo from "./Images/skillsLogo/nodejs-logo.png";
 import reactLogo from "./Images/skillsLogo/react-logo.png";
 import reduxLogo from "./Images/skillsLogo/redux-logo.png";
-import profile from "./Images/matt.jpg";
 
 const data = {
   //   Header Details
@@ -84,13 +83,13 @@ const data = {
 
   // End Work Section
 
-  // About Secton
-  aboutParaOne: "Hello, I'm a Frontend developer based in sydney, Australia",
-  aboutParaTwo:
-    "I am result-oriented individual who enjoys building and solving solutions as it gives me thrill of achnieving a goal.      ",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage: profile,
+  // // About Secton
+  // aboutParaOne: "Hello, I'm a Frontend developer based in sydney, Australia",
+  // aboutParaTwo:
+  //   "I am result-oriented individual who enjoys building and solving solutions as it gives me thrill of achnieving a goal.      ",
+  // aboutParaThree:
+  //   "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  // aboutImage: ,
 
   //   End About Section
 
