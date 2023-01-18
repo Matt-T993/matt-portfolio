@@ -1,0 +1,104 @@
+.intro-wrapper {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  color: black;
+}
+
+.name {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: -10px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: -10px;
+}
+.heading-wrapper {
+  text-align: center;
+  line-height: 20px;
+}
+
+.text-home {
+  text-align: center;
+  overflow: hidden;
+}
+
+.promo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.self-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-top: 10px;
+}
+
+@media (max-width: 320px) {
+  .name {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .heading-wrapper .promo {
+    font-size: 1.5rem;
+    line-height: 10px;
+  }
+  .text-home {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .heading-wrapper {
+    font-size: 1.5rem;
+    line-height: 10px;
+    overflow: hidden;
+  }
+  .hslide {
+    width: 100%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .hmove {
+    display: flex;
+    position: relative;
+  }
+  .text-home {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .name {
+    font-size: 16px;
+  }
+  .heading-wrapper .promo {
+    font-size: 1.5rem;
+  }
+  .text-home {
+    font-size: 14px;
+    width: 100%;
+  }
+}

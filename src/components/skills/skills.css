@@ -1,0 +1,32 @@
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  margin-left: 20px;
+}
+
+.skill-img {
+  height: 6rem;
+}
+
+@media (max-width: 600px) {
+  .skill-img {
+    height: 6rem;
+  }
+  .skill {
+    margin-left: 0;
+  }
+  .skills {
+    justify-content: space-evenly;
+  }
+}
